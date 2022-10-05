@@ -23,6 +23,7 @@ You can get the list of available plugins by running `react-native -h` within yo
 | ---------------------------------: | :---------------------------------------- |
 |     [set-icon](./docs/set-icon.md) | generate platform specific app icons      |
 | [set-splash](./docs/set-splash.md) | generate platform specific splash screens |
+| [set-name](./docs/set-name.md)     | update app name                           |
 
 ## 💻 Local development
 
@@ -36,5 +37,7 @@ You can get the list of available plugins by running `react-native -h` within yo
 ## Changes in 3.0.0
 
 Since 3.0.0, splashscreens for iOS are created via Xcode’s storyboard, so as to meet Apple's new requirements as of April 2020.
+
+Added option to change app name
 
 **Disclaimer:** _To better understand your usage of this tool, basic analytics have been enabled. It only records commands usage as anonymous page views and does not identify users in any way_
