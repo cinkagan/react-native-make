@@ -1,11 +1,11 @@
 {
-  "name": "@bam.tech/react-native-make",
-  "version": "3.0.3",
+  "name": "react-native-customize-app",
+  "version": "1.0.0",
   "main": "modules/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bamlab/react-native-make"
+    "url": "https://github.com/cinkagan/react-native-make"
   },
   "keywords": [
     "react-native",
@@ -13,7 +13,8 @@
     "icons",
     "splash-screen",
     "splashscreen",
-    "plugin"
+    "plugin",
+    "name"
   ],
   "scripts": {
     "prepublishOnly": "rm -rf dist && yarn tsc",
@@ -29,13 +30,14 @@
   },
   "devDependencies": {
     "@types/color-string": "1.5.0",
+    "@types/node": "^18.8.2",
     "@types/react-native-community__cli": "2.0.0",
     "@types/sharp": "0.22.2",
     "@types/universal-analytics": "0.4.3",
     "prettier": "1.18.2",
     "release-it": "12.3.6",
     "ts-node": "8.3.0",
-    "typescript": "3.5.3"
+    "typescript": "^3.9.7"
   },
   "rnpm": {
     "plugin": "./react-native.config.js"

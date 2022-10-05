@@ -1,14 +1,16 @@
 <p align="center"><img src="./docs/assets/make-logo.png"></p>
 <h2 align="center">Everyday tools for simpler React Native development</h2>
 
+<h3 align="center"><b>Main repo of this project @bam.tech/react-native-make</b></h3>
+
 ## ⚙️ Setup
 
 In your react-native project folder, run:
 
 ```bash
-yarn add -D @bam.tech/react-native-make
+yarn add -D react-native-customize-app
 # OR
-npm i -D @bam.tech/react-native-make
+npm i -D react-native-customize-app
 ```
 
 **Please note:** This plugin only supports react-native-cli v2+
@@ -31,13 +33,6 @@ You can get the list of available plugins by running `react-native -h` within yo
 - `cd react-native-make`
 - Run `yarn` then `yarn link`
 - Launch a new project with `react-native init`
-- In your React Native project, `yarn link @bam.tech/react-native-make`
-- In the package.json of your React Native project, in dependencies add "@bam.tech/react-native-make" : "0.0.0"
+- In your React Native project, `yarn link react-native-customize-app`
+- In the package.json of your React Native project, in dependencies add "react-native-customize-app" : "0.0.0"
 
-## Changes in 3.0.0
-
-Since 3.0.0, splashscreens for iOS are created via Xcode’s storyboard, so as to meet Apple's new requirements as of April 2020.
-
-Added option to change app name
-
-**Disclaimer:** _To better understand your usage of this tool, basic analytics have been enabled. It only records commands usage as anonymous page views and does not identify users in any way_
